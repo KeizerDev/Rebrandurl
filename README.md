@@ -5,11 +5,11 @@ This is a simple command line tool to transform HORRIBLE links like _https://www
 ## How does it work
 Just place it on your server and run something like:
 ```
-$ ./rebrandurl.sh "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "/roll"
+$ ./rebrandurl.sh "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "/awesome-vid"
 ```
-This will create an index.html in the public folder so you can serve it using nginx or apache and access it like this:
+This will create a redirect script in the public folder so you can serve it using nginx or apache and access it like this:
 ```
-http://my-domain.com/your-folder-name
+http://my-domain.com/awesome-vid
 ```
 
 ## Why did I created it?
