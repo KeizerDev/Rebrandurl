@@ -5,7 +5,7 @@ This is a simple command line tool to transform HORRIBLE links like _https://www
 ## How does it work
 Just place it on your server and run:
 ```
-$ ./rebrandurl.sh "https://site.com/too-long-to-place-somewhere" "your-folder-name"
+$ ./rebrandurl.sh "https://site.com/too-long-to-place-somewhere" "/your-folder-name"
 ```
 This will create an index.html in the public folder so you can serve it using nginx or apache and access it like this:
 ```
