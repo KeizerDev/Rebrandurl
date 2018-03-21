@@ -7,4 +7,7 @@ Just place it on your server and run:
 ```
 $ ./rebrandurl.sh "https://site.com/too-long-to-place-somewhere" "your-folder-name"
 ```
-This will create an index.html in the public folder so you can serve it using nginx or apache and access it like this http://my-domain.com/your-folder-name. All you have to do is point your apache host to the public folder and your good to go.
+This will create an index.html in the public folder so you can serve it using nginx or apache and access it like this:
+```
+http://my-domain.com/your-folder-name
+```
