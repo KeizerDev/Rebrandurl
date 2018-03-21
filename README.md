@@ -11,3 +11,6 @@ This will create an index.html in the public folder so you can serve it using ng
 ```
 http://my-domain.com/your-folder-name
 ```
+
+## Why did I created it?
+I've made this to prevent myself from using another service again for something small and easy as link redirects. It's a good alternative for https://www.rebrandly.com/ and https://prettylinks.com/ if you are looking for something to host yourself.
